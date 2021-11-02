@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, rgba(54, 54, 54, 0.705), rgba(10, 10, 10, 0.712)),
+    url('./static/asset/header_bg_img.jpg');
+  background-position: center;
+  height: auto;
+  padding: 10px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.subHeading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contactDetails {
+  line-height: 30px;
+}
+
+.contactDetails .subHeading {
+  text-align-last: left;
+}
+
+.sec1 i,
+.sec2 i {
+  margin: 7px;
+}
+
+.behance-icon {
+  text-align: center;
+}
+
+.followMsg {
+  width: 200px;
+  text-align: center;
+}
+
+.section {
+  width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-areas: "intro education"
+                        "specialties experience"
+                        "creativeskill softwarskill"
+                        "hobby hobby";
+  gap: 10px;
+}
+
+.introSection {
+  grid-area: intro;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.hello {
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 80px;
+}
+
+.educationSection {
+  grid-area: education;
+  border: 1px solid brown;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 40px;
+}
+
+.educationDetails {
+  display: block;
+  font-size: 8px;
+}
+
+.specialtiesSection{
+  grid-area: specialties;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.specialtiesSubsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.specialty-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #ec8a08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.text-rep {
+  text-align: center;
+}
+.text-rep-1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.text-rep-2 {
+  font-size: 10px;
+}
+
+.experienceSection {
+  grid-area: experience;
+  border: 1px solid brown;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 40px;
+}
+
+.creativeSkillSection {
+  grid-area: creativeskill;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.creativeSkillsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 30px;
+}
+
+.softwareSkillSection {
+  grid-area: softwarskill;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.iconify {
+  font-size: 30px;
+}
+
+.photoshop {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.software {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+progress {
+  width: 500px;
+  border: none;
+  height: 10px;
+  background: crimson
+}
+
+.hobbySection {
+  grid-area: hobby;
+  border: 1px solid brown;
+  padding: 20px;
+}
+
+.sectionHeading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: circle;
+}
+
+.hobbies_interest {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+
+.hobby-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ec8a08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
